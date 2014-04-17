@@ -1,3 +1,26 @@
 
+Update the CentOS
+-----------------
+  yum -y update
 
-yum groupinstall -y development
+
+Insatll Developement Tools
+--------------------------
+  yum groupinstall -y development
+
+
+Install Setuptools for Python
+-----------------------------
+  wget --no-check-certificate https://pypi.python.org/packages/source/s/setuptools/setuptools-1.4.2.tar.gz
+  # and install setup tools to the python
+
+
+Install pip
+-----------
+  curl https://raw.github.com/pypa/pip/master/contrib/get-pip.py | python2.6
+  # And install pip using the python
+
+
+Install Virtualenv
+------------------
+  pip install virtualenv
