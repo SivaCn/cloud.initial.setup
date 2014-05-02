@@ -48,3 +48,12 @@ Install and Configure tmux
    
   # you're good to go, for a sample ~/.tmux.conf check out
   # https://github.com/sturadnidge/misc/blob/master/.tmux.conf
+
+
+Setup Python Developement Environment:
+--------------------------------------
+  yum install python-devel
+  
+  yum install mysql-devel
+  
+  
